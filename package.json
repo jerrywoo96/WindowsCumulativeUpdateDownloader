@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "jquery": "3.7.1",
+    "jsdom": "latest",
+    "ky": "latest",
+    "vm": "latest"
+  },
+  "scripts": {
+    "download": "node --use_strict app.js",
+    "debug": "node --inspect --use_strict app.js"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
